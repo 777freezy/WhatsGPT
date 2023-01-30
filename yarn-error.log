@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\joaoa\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add dotenv
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\joaoa\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\joaoa\AppData\Local\Programs\Python\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\php74;C:\Program Files\Git\cmd;C:\Users\joaoa\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\joaoa\AppData\Local\Programs\Python\Python311\;C:\Users\joaoa\AppData\Local\Microsoft\WindowsApps;C:\Users\joaoa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Nmap;C:\Users\joaoa\AppData\Roaming\npm;C:\php74;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\joaoa\Downloads\zap-gpt-main\zap-gpt-main\node_modules\sharp\build\Release\libgobject-2.0-0.dll'
+
+npm manifest: 
+  {
+    "name": "zap-gpt",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node ."
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^16.0.3",
+      "openai": "^3.1.0",
+      "venom-bot": "^4.3.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
