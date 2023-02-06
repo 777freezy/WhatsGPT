@@ -2,6 +2,10 @@ import { create } from 'venom-bot'
 import * as dotenv from 'dotenv'
 import { Configuration, OpenAIApi } from "openai"
 
+const bot = create({
+  executablePath: '/usr/bin/google-chrome',
+})
+
 dotenv.config()
 
 create({
