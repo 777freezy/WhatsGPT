@@ -2,15 +2,23 @@ import { create } from 'venom-bot'
 import * as dotenv from 'dotenv'
 import { Configuration, OpenAIApi } from "openai"
 
-const bot = create({
-  executablePath: '/usr/bin/google-chrome-stable',
-})
+const chromiumArgs = [
+    '--disable-web-security', '--no-sandbox', '--disable-web-security',
+    '--aggressive-cache-discard', '--disable-cache', '--disable-application-cache',
+    '--disable-offline-load-stale-cache', '--disk-cache-size=0',
+    '--disable-background-networking', '--disable-default-apps', '--disable-extensions',
+    '--disable-sync', '--disable-translate', '--hide-scrollbars', '--metrics-recording-only',
+    '--mute-audio', '--no-first-run', '--safebrowsing-disable-auto-update',
+    '--ignore-certificate-errors', '--ignore-ssl-errors', '--ignore-certificate-errors-spki-list'
+  ];
 
 create({
     session: 'Chat-GPT',
-    multidevice: true
+    multidevice: true,
+    useChrome: true,
+    browserArgs: chromiumArgs,
 })
-    bot.then((client) => start(client))
+    .then((client) => start(client))
     .catch((erro) => {
     console.log(erro)
 })
