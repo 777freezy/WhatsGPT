@@ -3,19 +3,17 @@ import * as dotenv from 'dotenv'
 import { Configuration, OpenAIApi } from "openai"
 
 const bot = create({
-  executablePath: '/usr/bin/google-chrome',
+  executablePath: '/usr/bin/google-chrome-stable',
 })
-
-dotenv.config()
 
 create({
     session: 'Chat-GPT',
     multidevice: true
 })
-    .then((client) => start(client))
+    bot.then((client) => start(client))
     .catch((erro) => {
-        console.log(erro);
-    });
+    console.log(erro)
+})
 
 const configuration = new Configuration({
     organization: process.env.ORGANIZATION_ID,
