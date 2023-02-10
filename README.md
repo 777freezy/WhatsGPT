@@ -1,7 +1,7 @@
 
 # WhatsGPT
 
-o WhatsGPTé uma API que integra a IA da openIA (ChatGPT) a o whatspp, toda a integração foi feita com o nodeJS usando os frameworks :venom-bot, openIA, dotenv. o bot também cria IMG como pode ver no video abaixo.
+o WhatsGPTé uma API que integra a IA da openIA (ChatGPT) a o whatspp, toda a integração foi feita com o nodeJS usando os frameworks :venom-bot, openIA. o bot também cria IMG como pode ver no video abaixo.
 
 
 
