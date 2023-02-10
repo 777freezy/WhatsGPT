@@ -30,11 +30,13 @@ Instale as dependencias com npm
   cd chat
   npm install 
   npm start
-
-https://user-images.githubusercontent.com/109428496/218183589-60ab1c03-851e-4af6-930d-25c22592e157.mov
-
-
 ```
+
+
+
+https://user-images.githubusercontent.com/109428496/218183667-49a5ed32-c1a0-403e-92c6-6d7e3e75973f.mov
+
+
 
 
     
