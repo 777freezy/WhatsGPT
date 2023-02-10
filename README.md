@@ -32,5 +32,6 @@ Instale as dependencias com npm
   npm start
 ```
 
+![Gravação de Tela 2023-02-10 às 16 31 02 (2)](https://user-images.githubusercontent.com/109428496/218183243-c248e344-6b8d-4bea-8842-4229cfa6c437.gif)
 
     
