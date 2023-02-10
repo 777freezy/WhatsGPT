@@ -34,9 +34,9 @@ Instale as dependencias com npm
 
 
 
-https://user-images.githubusercontent.com/109428496/218183667-49a5ed32-c1a0-403e-92c6-6d7e3e75973f.mov
 
 
+![Gravação de Tela 2023-02-10 às 16 43 06 (1)](https://user-images.githubusercontent.com/109428496/218183984-f44570ee-997c-4fab-9af9-123ed486ea93.gif)
 
 
     
