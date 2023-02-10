@@ -2,9 +2,8 @@ import { create } from 'venom-bot'
 import * as dotenv from 'dotenv'
 import { Configuration, OpenAIApi } from "openai"
 
-const browser = await puppeteer.launch({
-    executablePath: '/usr/bin/google-chrome-stable'
-  })
+dotenv.config()
+
 
 create({
     session: 'Chat-GPT',
