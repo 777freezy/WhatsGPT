@@ -9,7 +9,6 @@ create({
     session: 'Chat-GPT',
     multidevice: true,
     useChrome: true,
-    browserArgs: chromiumArgs,
 })
     .then((client) => start(client))
     .catch((erro) => {
