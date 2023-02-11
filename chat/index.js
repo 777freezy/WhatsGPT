@@ -1,9 +1,13 @@
 import { create } from 'venom-bot'
 import * as dotenv from 'dotenv'
 import { Configuration, OpenAIApi } from "openai"
+import puppeteer from "puppeteer"
 
 dotenv.config()
 
+const browser = await puppeteer.launch({
+    headless: true
+});
 
 create({
     session: 'Chat-GPT',
