@@ -31,7 +31,7 @@ const getDavinciResponse = async (clientText) => {
         model: "text-davinci-003", 
         prompt: clientText, 
         temperature: 1, 
-        max_tokens: 500 
+        max_tokens: 1000 
     }
 
     try {
